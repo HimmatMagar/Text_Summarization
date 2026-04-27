@@ -17,4 +17,4 @@ logging.basicConfig(
       ]
 )
 
-loger = logging.getLogger("Text Summarization")
+logger = logging.getLogger("Text Summarization")
