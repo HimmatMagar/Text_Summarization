@@ -26,7 +26,7 @@ list_of_file = [
       "api/app.py",
       "requirements.txt",
       "setup.py",
-      "notebook/",
+      "notebook/abc.txt",
       "templates/index.html"
 ]
 
