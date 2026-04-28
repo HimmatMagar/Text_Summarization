@@ -8,3 +8,6 @@ accelerate
 datasets
 evaluate
 rouge-score
+python-box
+ensure
+pyYAML
