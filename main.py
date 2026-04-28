@@ -1,10 +1,22 @@
 from textSummarize import logger
 from textSummarize.pipeline.data_ingestion_pipeline import DataIngestionPipeline
+from textSummarize.pipeline.data_validation_pipeline import DataValidationPipeline
 
-STAGE_NAME = "Data Ingestion Stage"
+# STAGE_NAME = "Data Ingestion Stage"
+# try:
+#       logger.info(f">>>>>> {STAGE_NAME} started <<<<<<")
+#       obj = DataIngestionPipeline()
+#       obj.main()
+#       logger.info(f">>>>>> {STAGE_NAME} completed <<<<<<")
+# except Exception as e:
+#       logger.exception(e)
+#       raise e
+
+
+STAGE_NAME = "Data Validation Stage"
 try:
       logger.info(f">>>>>> {STAGE_NAME} started <<<<<<")
-      obj = DataIngestionPipeline()
+      obj = DataValidationPipeline()
       obj.main()
       logger.info(f">>>>>> {STAGE_NAME} completed <<<<<<")
 except Exception as e:
