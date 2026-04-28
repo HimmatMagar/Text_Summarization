@@ -1,0 +1,10 @@
+pandas
+transformers
+torch
+gdown
+dvc
+mlflow
+accelerate
+datasets
+evaluate
+rouge-score
