@@ -116,12 +116,6 @@ python src/textSummarize/pipeline/data_validation_pipeline.py
 | ensure | Type annotation enforcement |
 | pyYAML | YAML parsing |
 
-## Logging
-
-All pipeline operations are logged to:
-- Console (stdout)
-- `logging/running_log.log` (file)
-
 Log format: `[timestamp: level: module: message]`
 
 ## Usage Example
